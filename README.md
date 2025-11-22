@@ -66,7 +66,7 @@
 
     .hero {
       height: 120vh;
-      widith: 500px;
+      widith: 100%;
       background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
       display: flex;
       justify-content: center;
