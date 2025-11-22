@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -66,7 +65,8 @@
     }
 
     .hero {
-      height: 100vh;
+      height: 120vh;
+      widith: 500vh;
       background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
       display: flex;
       justify-content: center;
