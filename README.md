@@ -66,7 +66,7 @@
 
     .hero {
       height: 120vh;
-      widith: 500vh;
+      widith: 500px;
       background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
       display: flex;
       justify-content: center;
@@ -337,7 +337,7 @@
     </div>
   </section>
   <section class="contact" id="contact">
-    <h2><u>Contact Us</u>  <br> </h2>Phone :+250 781 845 376<br>Email: pacifiquentwari195@gmail.com
+    <h2><u>Contact Us</u>  <br> </h2>Phone :+250 781 845 376<br>Phone :+250 783 086 346<br>Email: pacifiquentwari195@gmail.com
     <h2><u> send us a message</u></h2>
     <form class="contact-form">
       <input type="text" placeholder="Full Name" required>
