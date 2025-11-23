@@ -238,23 +238,23 @@
       </div>
        <div class="car-card">
         <img src="https://br-www-resouce-cdn.gacgroup.com/static/Global/tenant/cms/common/202503/e31a84f7-c224-458a-bd8a-8155e6b88472.jpg" alt="Mercedes AMG GT">
-        <h3>2025 AION Y</h3>
+        <h3>2022 AION Y</h3>
         <p>$18,500</p>
       </div>
        <div class="car-card">
         <img src="https://s.auto.drom.ru/i24278/c/photos/fullsize/gac/trumpchi_gs4/gac_trumpchi_gs4_1117659.jpg" alt="Mercedes AMG GT" sizes="2">
         <h3>2019 TRUMPSHI GS4</h3>
-        <p>$16,500</p>
+        <p>$17,500</p>
       </div>
        <div class="car-card">
         <img src="https://cdn.wheel-size.com/automobile/body/gac-trumpchi-ge3-2017-2018-1596714361.0886333.jpeg" alt="Mercedes AMG GT" sizes="2">
         <h3>2018 TRUMPSHI GE3</h3>
-        <p>$16,000</p>
+        <p>$13,500</p>
       </div>
       <div class="car-card">
         <img src="https://carnewschina.com/wp-content/uploads/2024/12/2-transformed-10-scaled.jpeg" alt="Mercedes AMG GT" sizes="2">
         <h3>2025 Chery iCAR V23</h3>
-        <p>$21,000</p>
+        <p>$24,000</p>
       </div>
       <div class="car-card">
         <img src="https://img.pcauto.com/model/images/modelPic/my/2024/09/691/447808378_1726299535534_600x400.jpg" alt="Mercedes AMG GT" sizes="2">
