@@ -243,12 +243,12 @@
       </div>
        <div class="car-card">
         <img src="https://s.auto.drom.ru/i24278/c/photos/fullsize/gac/trumpchi_gs4/gac_trumpchi_gs4_1117659.jpg" alt="Mercedes AMG GT" sizes="2">
-        <h3>2019 TRUMPSHI GS4</h3>
+        <h3>2019 TRUMPCHI GS4</h3>
         <p>$17,500</p>
       </div>
        <div class="car-card">
         <img src="https://cdn.wheel-size.com/automobile/body/gac-trumpchi-ge3-2017-2018-1596714361.0886333.jpeg" alt="Mercedes AMG GT" sizes="2">
-        <h3>2018 TRUMPSHI GE3</h3>
+        <h3>2018 TRUMPCHI GE3</h3>
         <p>$13,500</p>
       </div>
       <div class="car-card">
