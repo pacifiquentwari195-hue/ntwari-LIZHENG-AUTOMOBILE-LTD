@@ -6,242 +6,185 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    background-color: #fcfbfb;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      color: #222;
-      background-color: #fcfbfb;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
+  /* ---------- HEADER ---------- */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(235, 222, 222, 0.95);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    z-index: 10;
+    flex-wrap: wrap;
+  }
 
-    /* ---------- HEADER ---------- */
+  .logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    max-width: 70%;
+  }
+
+  .logo span {
+    color: #fbf7f7;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #e50914;
+  }
+
+  .hero {
+    height: 120vh;
+    width: 100%;
+    background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 0 10px;
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 520px;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    animation: fadeInDown 1s ease;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    animation: fadeIn 2s ease;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #e50914;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-weight: 600;
+    animation: fadeInUp 1.5s ease;
+  }
+
+  .btn:hover {
+    background: #b0060f;
+  }
+
+  .cars-section {
+    padding: 5rem 10%;
+    text-align: center;
+  }
+
+  .car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  .about, .contact {
+    padding: 4rem 8%;
+    text-align: center;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 768px) {
+
     header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: rgba(235, 222, 222, 0.95);
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 5%;
-      z-index: 10;
+      padding: 0.8rem 5%;
+      text-align: center;
+      flex-direction: column;
+      gap: 0.5rem;
     }
 
     .logo {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: #111;
-    }
-
-    .logo span {
-      color: #fbf7f7;
+      font-size: 1.2rem;
     }
 
     .nav-links {
-      list-style: none;
-      display: flex;
-      gap: 2rem;
-    }
-
-    .nav-links a {
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-      transition: 0.3s;
-    }
-
-    .nav-links a:hover {
-      color: #e50914;
+      gap: 0.6rem;
     }
 
     .hero {
-      height: 120vh;
-      widith: 100%;
-      background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-      text-align: center;
-      position: relative;
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.5);
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 600px;
+      height: 100vh;
     }
 
     .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      animation: fadeInDown 1s ease;
+      font-size: 1.8rem;
     }
 
     .hero p {
-      font-size: 1.1rem;
-      margin-bottom: 2rem;
-      animation: fadeIn 2s ease;
+      font-size: 0.9rem;
     }
-
-    .btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background: #e50914;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: 0.3s;
-      font-weight: 600;
-      animation: fadeInUp 1.5s ease;
-    }
-
-    .btn:hover {
-      background: #b0060f;
-    }
-
-    /* ---------- FEATURED CARS ---------- */
-    .cars-section {
-      padding: 5rem 10%;
-      text-align: center;
-    }
-
-    .cars-section h2 {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
-
-    .car-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-
-    .car-card {
-      background: #f9f9f9;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-
-    .car-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .car-card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .car-card h3 {
-      margin: 1rem 0 0.5rem;
-    }
-
-    .car-card p {
-      color: #e50914;
-      font-weight: 600;
-      margin-bottom: 1rem;
-    }
-
-    /* ---------- ABOUT ---------- */
-    .about {
-      background: #ebe9e9;
-      padding: 5rem 10%;
-      text-align: center;
-    }
-
-    .about-content {
-      max-width: 700px;
-      margin: auto;
-    }
-
-    .about h2 {
-      margin-bottom: 1rem;
-    }
-
-    /* ---------- CONTACT ---------- */
-    .contact {
-      padding: 5rem 10%;
-      text-align: center;
-    }
-
-    .contact-form {
-      max-width: 600px;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-      padding: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-
-    .contact-form button {
-      border: none;
-      cursor: pointer;
-    }
-
-    /* ---------- FOOTER ---------- */
-    footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 1.5rem 0;
-    }
-
-    /* ---------- ANIMATIONS ---------- */
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-
-    @keyframes fadeInUp {
-      from {opacity: 0; transform: translateY(20px);}
-      to {opacity: 1; transform: translateY(0);}
-    }
-
-    @keyframes fadeInDown {
-      from {opacity: 0; transform: translateY(-20px);}
-      to {opacity: 1; transform: translateY(0);}
-    }
-}
-    /* ---------- RESPONSIVE ---------- */
-    @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2.2rem;
-      }
-      .nav-links {
-        gap: 1rem;
-      }
-    }
-  </style>
+  }
+</style>
 </head>
 
 <body>
