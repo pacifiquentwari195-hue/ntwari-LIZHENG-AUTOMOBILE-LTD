@@ -2,6 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LIZHENG | Premium Car Dealership</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -231,7 +232,35 @@
       from {opacity: 0; transform: translateY(-20px);}
       to {opacity: 1; transform: translateY(0);}
     }
+form {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
 
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button, input[type="submit"] {
+    width: 100%;
+}
+
+.header-title {
+    font-size: clamp(20px, 5vw, 34px);
+}
+
+/* Fix everything on small phone screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
     /* ---------- RESPONSIVE ---------- */
     @media (max-width: 768px) {
       .hero h1 {
