@@ -264,7 +264,7 @@
       <div class="car-card">
         <img src="https://www.gacmotor.mx/static/agency-go-virtual/Gac/Emkoo/2024/emkoo-2.jpg" alt="Mercedes AMG GT" sizes="2">
         <h3>GAC Emkoo Hybrid</h3>
-        <p>$18,000</p>
+        <p>$25,000</p>
       </div>
       <div class="car-card">
         <img src="https://carnewschina.com/wp-content/uploads/2022/04/aeolus-suv-1.jpg" alt="Mercedes AMG GT" sizes="2">
