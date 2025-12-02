@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
-  * {
+  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -264,7 +264,7 @@
       <div class="car-card">
         <img src="https://www.gacmotor.mx/static/agency-go-virtual/Gac/Emkoo/2024/emkoo-2.jpg" alt="Mercedes AMG GT" sizes="2">
         <h3>GAC Emkoo Hybrid</h3>
-        <p>36,000,000 RWF</p>
+        <p>37,000,000 RWF</p>
       </div>
       <div class="car-card">
         <img src="https://carnewschina.com/wp-content/uploads/2022/04/aeolus-suv-1.jpg" alt="Mercedes AMG GT" sizes="2">
