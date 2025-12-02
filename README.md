@@ -397,7 +397,7 @@
 </footer>
 
 <!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/250781845376" target="_blank" class="whatsapp">💬 MY Watsapp</a>
+<a href="https://wa.me/250781845376" target="_blank" class="whatsapp">💬 Text us</a>
 
 <!-- JAVASCRIPT -->
 <script>
