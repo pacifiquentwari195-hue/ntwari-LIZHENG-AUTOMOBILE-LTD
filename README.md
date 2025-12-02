@@ -1,144 +1,212 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LIZHENG | Premium Car Dealership</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIZHENG | Premium Car Dealership Rwanda</title>
+
+  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
-  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
+<style>
+  /* RESET */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+    background: #fafafa;
     color: #222;
-    background-color: #fcfbfb;
-    line-height: 1.6;
     overflow-x: hidden;
   }
 
-  /* ---------- HEADER ---------- */
+  /* HEADER */
   header {
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    background: rgba(235, 222, 222, 0.95);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
-    z-index: 10;
-    flex-wrap: wrap;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 0 transparent;
+    transition: 0.3s;
+    z-index: 1000;
+  }
+  header.scrolled {
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
   }
 
   .logo {
-    font-size: 1.4rem;
-    font-weight: 700;
-    max-width: 70%;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #e50914;
   }
-
   .logo span {
-    color: #fbf7f7;
+    color: #222;
+    font-weight: 700;
   }
 
-  .nav-links {
-    list-style: none;
+  nav ul {
     display: flex;
-    gap: 1.2rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    list-style: none;
+    gap: 1.8rem;
   }
 
-  .nav-links a {
+  nav ul li a {
+    color: #222;
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.3s;
   }
-
-  .nav-links a:hover {
+  nav ul li a:hover {
     color: #e50914;
   }
 
+  /* HAMBURGER (MOBILE) */
+  .menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 850px) {
+    nav ul {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: #fff;
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: 0.4s ease;
+    }
+    nav ul.open {
+      max-height: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .menu-icon { display: block; }
+  }
+
+  /* HERO */
   .hero {
-    height: 120vh;
-    width: 100%;
-    background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    height: 100vh;
+    background: 
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+      url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=80') 
+      center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
     text-align: center;
-    position: relative;
-    padding: 0 10px;
-  }
-
-  .hero::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.5);
-  }
-
-  .hero-content {
-    position: relative;
-    z-index: 1;
-    max-width: 520px;
+    padding: 10px;
   }
 
   .hero h1 {
-    font-size: 2.6rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
     margin-bottom: 1rem;
-    animation: fadeInDown 1s ease;
+    animation: fadeInDown 1.2s ease;
   }
-
   .hero p {
-    font-size: 1rem;
+    color: #ddd;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
     margin-bottom: 2rem;
     animation: fadeIn 2s ease;
   }
 
   .btn {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
+    padding: 0.9rem 2rem;
     background: #e50914;
-    color: #fff;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
     text-decoration: none;
-    border-radius: 4px;
     transition: 0.3s;
-    font-weight: 600;
-    animation: fadeInUp 1.5s ease;
+    animation: fadeInUp 1.2s ease;
   }
-
   .btn:hover {
-    background: #b0060f;
+    background: #b00610;
   }
 
+  /* FEATURED CARS */
   .cars-section {
-    padding: 5rem 10%;
+    padding: 6rem 10%;
     text-align: center;
+  }
+  .cars-section h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
   }
 
   .car-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem;
   }
 
-  .about, .contact {
-    padding: 4rem 8%;
-    text-align: center;
+  .car-card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+  }
+  .car-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 22px rgba(0,0,0,0.15);
+  }
+  .car-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    transition: 0.3s;
+  }
+  .car-card:hover img {
+    transform: scale(1.07);
+  }
+  .car-card h3 {
+    margin: 1rem 0 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .car-card p {
+    font-weight: 700;
+    color: #e50914;
+    margin-bottom: 1.2rem;
   }
 
+  /* ABOUT */
+  .about {
+    padding: 5rem 10%;
+    background: #fff;
+    text-align: center;
+  }
+  .about h2 { font-size: 2.2rem; font-weight: 800; }
+  .about p {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 5rem 10%;
+    text-align: center;
+  }
   .contact-form {
     max-width: 600px;
     margin: auto;
@@ -146,151 +214,202 @@
     flex-direction: column;
     gap: 1rem;
   }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.9rem;
+    border-radius: 6px;
+    border: 1.6px solid #ccc;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #e50914;
+  }
 
+  /* FOOTER */
   footer {
     background: #111;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    font-weight: 500;
   }
-  /* ---------- RESPONSIVE ---------- */
-  @media (max-width: 768px) {
-  header {
-      padding: 0.8rem 5%;
-      text-align: center;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
 
-    .logo {
-      font-size: 1.2rem;
-    }
-
-    .nav-links {
-      gap: 0.6rem;
-    }
-
-    .hero {
-      height: 100vh;
-    }
-
-    .hero h1 {
-      font-size: 1.8rem;
-    }
-
-    .hero p {
-      font-size: 0.9rem;
-    }
-  
+  /* WHATSAPP FLOAT */
+  .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    z-index: 999;
   }
+  .whatsapp:hover { transform: scale(1.1); }
+
+  /* ANIMATIONS */
+  @keyframes fadeInDown { from {opacity: 0; transform: translateY(-30px);} to {opacity:1; transform: none;} }
+  @keyframes fadeInUp { from {opacity: 0; transform: translateY(30px);} to {opacity:1; transform: none;} }
+  @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
 
 </style>
 </head>
 
 <body>
-  <header>
-    <div class="logo">LIZHENG<span>Automobile ltd-Rwanda </span></div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#cars">Inventory</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h1>Drive the Car You Deserve</h1>
-      <p>Explore our premium collection of new and pre-owned vehicles at unbeatable prices here at LIZHENG Automobile Company-RWANDA.</p>
-      <a href="#cars" class="btn">View Inventory</a>
-    </div>
-  </section>
 
-  <!-- FEATURED CARS -->
-  <section class="cars-section" id="cars">
-    <h2>Featured Cars</h2>
-    <div class="car-grid">
-      <div class="car-card">
-        <img src="https://cdn.globalso.com/centuryautomobile/AION-LX-zhu_3.jpg" alt="Audi R8">
-        <h3>AION V PLUS</h3>
-        <p>30,000,000 RWF</p>
-      </div>
-      <div class="car-card">
-        <img src="https://static-content-live.caricarz.com/media_library/post/17281/15167284/conversions/11-full_normal.jpg" alt="BMW M4">
-        <h3>2025 TOYOTA BZ3X</h3>
-        <p>41,000,000 RWF</p>
-      </div>
-      <div class="car-card">
-        <img src="https://i1.autocango.com/spec/fb47f590193b49c5a663adc75c821da2f486b47ff3ea63dbbfd2e166389eaca7.webp?x-image-process=image/resize,h_900/imageslim" alt="Mercedes AMG GT">
-        <h3>2024 BYD song plus</h3>
-        <p>38,000,000 RWF</p>
-      </div>
-      <div class="car-card">
-        <img src="https://guangcaiauto.com/wp-content/uploads/2024/08/Chery-iCAR-03-picture-10.webp" alt="Mercedes AMG GT">
-        <h3>Chery iCAR 03</h3>
-        <p>30,000,000 RWF</p>
-      </div>
-       <div class="car-card">
-        <img src="https://image.made-in-china.com/2f0j00LmVbaIEsCKkP/2024-Byd-Yuan-up-New-Energy-Vehicles-New-Sedan-SUV-Cars-Left-Drive-Cheap-Price-High-Speed-Fwd-Long-Range-401km-301km-Auto-EV-Second-Hand-Vehicle-for-Sale-China.webp" alt="Mercedes AMG GT">
-        <h3>2025 BYD YUAN UP</h3>
-        <p>29,000,000RWF</p>
-      </div>
-       <div class="car-card">
-        <img src="https://br-www-resouce-cdn.gacgroup.com/static/Global/tenant/cms/common/202503/e31a84f7-c224-458a-bd8a-8155e6b88472.jpg" alt="Mercedes AMG GT">
-        <h3>2022 AION Y</h3>
-        <p>26,000,000 RWF</p>
-      </div>
-       <div class="car-card">
-        <img src="https://s.auto.drom.ru/i24278/c/photos/fullsize/gac/trumpchi_gs4/gac_trumpchi_gs4_1117659.jpg" alt="Mercedes AMG GT" sizes="2">
-        <h3>2019 TRUMPCHI GS4</h3>
-        <p>25,000,000 RWF</p>
-      </div>
-       <div class="car-card">
-        <img src="https://cdn.wheel-size.com/automobile/body/gac-trumpchi-ge3-2017-2018-1596714361.0886333.jpeg" alt="Mercedes AMG GT" sizes="2">
-        <h3>2018 TRUMPCHI GE3</h3>
-        <p>18,000,000 RWF</p>
-      </div>
-      <div class="car-card">
-        <img src="https://carnewschina.com/wp-content/uploads/2024/12/2-transformed-10-scaled.jpeg" alt="Mercedes AMG GT" sizes="2">
-        <h3>2025 Chery iCAR V23</h3>
-        <p>34,000,000 RWF</p>
-      </div>
-      <div class="car-card">
-        <img src="https://img.pcauto.com/model/images/modelPic/my/2024/09/691/447808378_1726299535534_600x400.jpg" alt="Mercedes AMG GT" sizes="2">
-        <h3>2022 AION Y PLUS</h3>
-        <p>26,500,000 RWF</p>
-      </div>
-      <div class="car-card">
-        <img src="https://www.gacmotor.mx/static/agency-go-virtual/Gac/Emkoo/2024/emkoo-2.jpg" alt="Mercedes AMG GT" sizes="2">
-        <h3>GAC Emkoo Hybrid</h3>
-        <p>37,000,000 RWF</p>
-      </div>
-      <div class="car-card">
-        <img src="https://carnewschina.com/wp-content/uploads/2022/04/aeolus-suv-1.jpg" alt="Mercedes AMG GT" sizes="2">
-        <h3>2022 DONG FENG</h3>
-        <p>38,000,000 RWF</p>
-      </div>
+<header id="header">
+  <div class="logo">LIZHENG <span>Automobile Ltd</span></div>
+
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <nav>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#cars">Inventory</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div>
+    <h1>Drive the Car You Deserve</h1>
+    <p>Discover our premium range of modern electric vehicles at unbeatable prices in Rwanda.</p>
+    <a href="#cars" class="btn">View Inventory</a>
+  </div>
+</section>
+
+<!-- FEATURED CARS -->
+<section class="cars-section" id="cars">
+  <h2>Featured Cars</h2>
+
+  <div class="car-grid">
+
+    <!-- CAR CARDS (same cars you provided, kept intact) -->
+
+    <div class="car-card">
+      <img src="https://cdn.globalso.com/centuryautomobile/AION-LX-zhu_3.jpg">
+      <h3>AION V PLUS</h3>
+      <p>30,000,000 RWF</p>
     </div>
-  </section>
-  <section class="about" id="about">
-    <div class="about-content">
-      <h2>About LIZHENG Automobile ltd</h2>
-      <p>At LIZHENG Automobile ltd, we pride ourselves on delivering top-quality vehicles paired with unmatched customer service. Our mission is to help you find the perfect electric car that fits your lifestyle, budget, and performance needs. <br><strong><u>Location</u> <br>Here in Kigali-Kicukiro <br>KK 506 st</strong> </p>
+    <div class="car-card">
+      <img src="https://static-content-live.caricarz.com/media_library/post/17281/15167284/conversions/11-full_normal.jpg">
+      <h3>2025 TOYOTA BZ3X</h3>
+      <p>41,000,000 RWF</p>
     </div>
-  </section>
-  <section class="contact" id="contact">
-    <h2><u>Contact Us</u>  <br> </h2>Phone :+250 781 845 376<br>Phone :+250 783 086 346<br>Email: pacifiquentwari195@gmail.com
-    <h2><u> send us a message</u></h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Full Name" required>
-      <input type="email" placeholder="Email Address" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
-  <footer>
-    <p>© 2025 LIZHENG Automobile ltd. All Rights Reserved.</p>
-  </footer>
+    <div class="car-card">
+      <img src="https://i1.autocango.com/spec/fb47f590193b49c5a663adc75c821da2f486b47ff3ea63dbbfd2e166389eaca7.webp?x-image-process=image/resize,h_900/imageslim">
+      <h3>2024 BYD Song Plus</h3>
+      <p>38,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://guangcaiauto.com/wp-content/uploads/2024/08/Chery-iCAR-03-picture-10.webp">
+      <h3>Chery iCAR 03</h3>
+      <p>30,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://www.nordiskbil.com/wp-content/uploads/2023/12/BYD-Yuan-UP.jpg">
+      <h3>2025 BYD YUAN UP</h3>
+      <p>29,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://br-www-resouce-cdn.gacgroup.com/static/Global/tenant/cms/common/202503/e31a84f7-c224-458a-bd8a-8155e6b88472.jpg">
+      <h3>2022 AION Y</h3>
+      <p>26,000,000 RWF</p>
+    </div>
+
+    <div class="car-card">
+      <img src="https://s.auto.drom.ru/i24278/c/photos/fullsize/gac/trumpchi_gs4/gac_trumpchi_gs4_1117659.jpg">
+      <h3>2019 TRUMPCHI GS4</h3>
+      <p>25,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://cdn.wheel-size.com/automobile/body/gac-trumpchi-ge3-2017-2018-1596714361.0886333.jpeg">
+      <h3>2018 TRUMPCHI GE3</h3>
+      <p>18,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://carnewschina.com/wp-content/uploads/2024/12/2-transformed-10-scaled.jpeg">
+      <h3>2025 Chery iCAR V23</h3>
+      <p>34,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://auto.qingdaonews.com/ev/images/2022-09/29/9d31af10-300b-4e37-b7c2-988b756bab53.jpg.2">
+      <h3>2022 AION Y PLUS</h3>
+      <p>26,500,000 RWF</p>
+    </div>
+
+    <div class="car-card">
+      <img src="https://www.gacmotor.mx/static/agency-go-virtual/Gac/Emkoo/2024/emkoo-2.jpg">
+      <h3>GAC Emkoo Hybrid</h3>
+      <p>37,000,000 RWF</p>
+    </div>
+
+    <div class="car-card">
+      <img src="https://carnewschina.com/wp-content/uploads/2022/04/aeolus-suv-1.jpg">
+      <h3>2022 DONG FENG</h3>
+      <p>38,000,000 RWF</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <h2>About LIZHENG Automobile Ltd</h2>
+  <p>
+    We pride ourselves on delivering high-quality electric vehicles with exceptional customer service.
+    <br><br><strong>Location:</strong> Kigali - Kicukiro, KK 506 Street
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>
+    Phone: +250 781 845 376<br>
+    Phone: +250 783 086 346<br>
+    Email: pacifiquentwari195@gmail.com
+  </p>
+
+  <h2 style="margin-top:2rem;">Send us a message</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 LIZHENG Automobile Ltd. All Rights Reserved.
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/250781845376" target="_blank" class="whatsapp">💬</a>
+
+<!-- JAVASCRIPT -->
+<script>
+  function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("open");
+  }
+
+  // Header shadow on scroll
+  window.addEventListener("scroll", function() {
+    document.getElementById("header").classList.toggle("scrolled", window.scrollY > 20);
+  });
+</script>
+
 </body>
 </html>
