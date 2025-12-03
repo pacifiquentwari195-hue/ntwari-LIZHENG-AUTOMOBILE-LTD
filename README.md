@@ -379,7 +379,9 @@
   <p>
     Phone: +250 781 845 376<br>
     Phone: +250 783 086 346<br>
+    Phone: +250 793 368 695<br>
     Email: pacifiquentwari195@gmail.com
+    Email: karengerafidele9@gmail.com
   </p>
 
   <h2 style="margin-top:2rem;">Send us a message</h2>
@@ -397,7 +399,7 @@
 </footer>
 
 <!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/250781845376" target="_blank" class="whatsapp">💬 Text us</a>
+<a href="https://wa.me/250792878739" target="_blank" class="whatsapp">💬 Text us</a>
 
 <!-- JAVASCRIPT -->
 <script>
