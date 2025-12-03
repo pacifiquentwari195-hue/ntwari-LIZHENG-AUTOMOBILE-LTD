@@ -380,7 +380,7 @@
     Phone: +250 781 845 376<br>
     Phone: +250 783 086 346<br>
     Phone: +250 793 368 695<br>
-    Email: pacifiquentwari195@gmail.com
+    Email: pacifiquentwari195@gmail.com<br>
     Email: karengerafidele9@gmail.com
   </p>
 
