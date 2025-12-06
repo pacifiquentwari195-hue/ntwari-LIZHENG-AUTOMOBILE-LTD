@@ -4,14 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LIZHENG | Premium Car Dealership Rwanda</title>
-
-  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-  /* RESET */
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   body {
@@ -20,8 +17,6 @@
     color: #222;
     overflow-x: hidden;
   }
-
-  /* HEADER */
   header {
     width: 100%;
     position: fixed;
@@ -66,8 +61,6 @@
   nav ul li a:hover {
     color: #e50914;
   }
-
-  /* HAMBURGER (MOBILE) */
   .menu-icon {
     display: none;
     font-size: 28px;
@@ -94,8 +87,6 @@
     }
     .menu-icon { display: block; }
   }
-
-  /* HERO */
   .hero {
     height: 100vh;
     background: 
@@ -139,8 +130,6 @@
   .btn:hover {
     background: #b00610;
   }
-
-  /* FEATURED CARS */
   .cars-section {
     padding: 6rem 10%;
     text-align: center;
@@ -187,8 +176,6 @@
     color: #e50914;
     margin-bottom: 1.2rem;
   }
-
-  /* ABOUT */
   .about {
     padding: 5rem 10%;
     background: #fff;
@@ -201,8 +188,6 @@
     margin-top: 1rem;
     font-size: 1.1rem;
   }
-
-  /* CONTACT */
   .contact {
     padding: 5rem 10%;
     text-align: center;
@@ -226,8 +211,6 @@
   .contact-form textarea:focus {
     border-color: #e50914;
   }
-
-  /* FOOTER */
   footer {
     background: #111;
     color: white;
@@ -236,8 +219,6 @@
     margin-top: 3rem;
     font-weight: 500;
   }
-
-  /* WHATSAPP FLOAT */
   .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -254,8 +235,6 @@
     z-index: 999;
   }
   .whatsapp:hover { transform: scale(1.1); }
-
-  /* ANIMATIONS */
   @keyframes fadeInDown { from {opacity: 0; transform: translateY(-30px);} to {opacity:1; transform: none;} }
   @keyframes fadeInUp { from {opacity: 0; transform: translateY(30px);} to {opacity:1; transform: none;} }
   @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
@@ -279,8 +258,6 @@
     </ul>
   </nav>
 </header>
-
-<!-- HERO -->
 <section class="hero" id="home">
   <div>
     <h1>Drive the Car You Deserve</h1>
@@ -288,15 +265,10 @@
     <a href="#cars" class="btn">View Inventory</a>
   </div>
 </section>
-
-<!-- FEATURED CARS -->
 <section class="cars-section" id="cars">
   <h2>Featured Cars</h2>
 
   <div class="car-grid">
-
-    <!-- CAR CARDS (same cars you provided, kept intact) -->
-
     <div class="car-card">
       <img src="https://cdn.globalso.com/centuryautomobile/AION-LX-zhu_3.jpg">
       <h3>AION V PLUS</h3>
@@ -363,8 +335,6 @@
 
   </div>
 </section>
-
-<!-- ABOUT -->
 <section class="about" id="about">
   <h2>About LIZHENG Automobile Ltd</h2>
   <p>
@@ -372,8 +342,6 @@
     <br><br><strong>Location:</strong> Kigali - Kicukiro, KK 506 Street
   </p>
 </section>
-
-<!-- CONTACT -->
 <section class="contact" id="contact">
   <h2>Contact Us</h2>
   <p>
@@ -397,11 +365,7 @@
 <footer>
   © 2025 LIZHENG Automobile Ltd. All Rights Reserved.
 </footer>
-
-<!-- WHATSAPP FLOAT -->
 <a href="https://wa.me/250792878739" target="_blank" class="whatsapp">💬 Text us</a>
-
-<!-- JAVASCRIPT -->
 <script>
   function toggleMenu() {
     document.getElementById("nav-links").classList.toggle("open");
