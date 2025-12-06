@@ -305,60 +305,60 @@
     <div class="car-card">
       <img src="https://static-content-live.caricarz.com/media_library/post/17281/15167284/conversions/11-full_normal.jpg">
       <h3>2025 TOYOTA BZ3X</h3>
-      <p>41,000,000 RWF</p>
+      <p>43,000,000 RWF</p>
     </div>
     <div class="car-card">
       <img src="https://i1.autocango.com/spec/fb47f590193b49c5a663adc75c821da2f486b47ff3ea63dbbfd2e166389eaca7.webp?x-image-process=image/resize,h_900/imageslim">
       <h3>2024 BYD Song Plus</h3>
-      <p>38,000,000 RWF</p>
+      <p>39,000,000 RWF</p>
     </div>
     <div class="car-card">
       <img src="https://guangcaiauto.com/wp-content/uploads/2024/08/Chery-iCAR-03-picture-10.webp">
       <h3>Chery iCAR 03</h3>
-      <p>30,000,000 RWF</p>
+      <p>32,000,000 RWF</p>
     </div>
     <div class="car-card">
       <img src="https://www.nordiskbil.com/wp-content/uploads/2023/12/BYD-Yuan-UP.jpg">
       <h3>2025 BYD YUAN UP</h3>
-      <p>29,000,000 RWF</p>
+      <p>30,000,000 RWF</p>
     </div>
     <div class="car-card">
       <img src="https://br-www-resouce-cdn.gacgroup.com/static/Global/tenant/cms/common/202503/e31a84f7-c224-458a-bd8a-8155e6b88472.jpg">
       <h3>2022 AION Y</h3>
-      <p>26,000,000 RWF</p>
+      <p>28,000,000 RWF</p>
     </div>
 
     <div class="car-card">
       <img src="https://s.auto.drom.ru/i24278/c/photos/fullsize/gac/trumpchi_gs4/gac_trumpchi_gs4_1117659.jpg">
       <h3>2019 TRUMPCHI GS4</h3>
-      <p>25,000,000 RWF</p>
+      <p>28,000,000 RWF</p>
     </div>
     <div class="car-card">
       <img src="https://cdn.wheel-size.com/automobile/body/gac-trumpchi-ge3-2017-2018-1596714361.0886333.jpeg">
       <h3>2018 TRUMPCHI GE3</h3>
-      <p>18,000,000 RWF</p>
+      <p>21,000,000 RWF</p>
     </div>
     <div class="car-card">
       <img src="https://carnewschina.com/wp-content/uploads/2024/12/2-transformed-10-scaled.jpeg">
       <h3>2025 Chery iCAR V23</h3>
-      <p>34,000,000 RWF</p>
+      <p>38,000,000 RWF</p>
     </div>
     <div class="car-card">
       <img src="https://auto.qingdaonews.com/ev/images/2022-09/29/9d31af10-300b-4e37-b7c2-988b756bab53.jpg.2">
       <h3>2022 AION Y PLUS</h3>
-      <p>26,500,000 RWF</p>
+      <p>28,500,000 RWF</p>
     </div>
 
     <div class="car-card">
       <img src="https://www.gacmotor.mx/static/agency-go-virtual/Gac/Emkoo/2024/emkoo-2.jpg">
       <h3>GAC Emkoo Hybrid</h3>
-      <p>37,000,000 RWF</p>
+      <p>39,000,000 RWF</p>
     </div>
 
     <div class="car-card">
       <img src="https://carnewschina.com/wp-content/uploads/2022/04/aeolus-suv-1.jpg">
       <h3>2022 DONG FENG</h3>
-      <p>38,000,000 RWF</p>
+      <p>40,000,000 RWF</p>
     </div>
 
   </div>
