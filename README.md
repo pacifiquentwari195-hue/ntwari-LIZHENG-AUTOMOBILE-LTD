@@ -339,7 +339,15 @@
   <h2>About LIZHENG Automobile Ltd</h2>
   <p>
     We pride ourselves on delivering high-quality electric vehicles with exceptional customer service.
-    <br><br><strong>Location:</strong> Kigali - Kicukiro, KK 506 Street
+    <br><br><strong>Location:</strong> Kigali - Kicukiro, KK 506 Street <br> or find us on google Maps 
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!..."
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
   </p>
 </section>
 <section class="contact" id="contact">
