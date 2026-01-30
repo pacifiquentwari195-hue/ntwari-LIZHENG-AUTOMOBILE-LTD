@@ -11,12 +11,6 @@
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  body {
-    font-family: "Poppins", sans-serif;
-    background: #fafafa;
-    color: #222;
-    overflow-x: hidden;
-  }
    .wallpaper {
       height: 370vh;
       background-image: url("https://hips.hearstapps.com/hmg-prod/images/future-cars-2-6939c3d6c9abe.jpg?crop=0.6989379084967321xw:1xh;center,top&resize=1200:*");
@@ -24,6 +18,13 @@
       background-position: center;
       background-repeat: no-repeat;
     }
+  body {
+    font-family: "Poppins", sans-serif;
+    background: #fafafa;
+    color: #222;
+    overflow-x: hidden;
+  }
+  
   header {
     width: 100%;
     position: fixed;
