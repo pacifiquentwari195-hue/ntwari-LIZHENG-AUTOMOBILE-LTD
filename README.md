@@ -278,7 +278,7 @@
 
   <div class="car-grid">
     <div class="car-card">
-      <img src="https://cdn.globalso.com/centuryautomobile/AION-LX-zhu_3.jpg">
+      <img src="https://image.made-in-china.com/2f0j00CVvqkazBljoy/2023-Auto-GAC-Aion-V-Plus-2022-Evolution-Edition-New-Energy-Vehicle-High-Speed-185km-H-EV-Electric-Car-Long-Distance-500km.webp">
       <h3>AION V PLUS</h3>
       <p>30,000,000 RWF</p>
     </div>
