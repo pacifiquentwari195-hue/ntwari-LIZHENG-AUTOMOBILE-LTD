@@ -357,6 +357,7 @@
     Phone: +250 781 845 376<br>
     Phone: +250 783 086 346<br>
     Phone: +250 793 368 695<br>
+    Phone: +250 796 892 093<br>
     Email: pacifiquentwari195@gmail.com<br>
     Email: karengerafidele9@gmail.com
   </p>
@@ -374,7 +375,7 @@
 <footer>
   © 2025 LIZHENG Automobile Ltd. All Rights Reserved.
 </footer>
-<a href="https://wa.me/250792878739" target="_blank" class="whatsapp">💬 Text us</a>
+<a href="https://wa.me/250796892093" target="_blank" class="whatsapp">💬 Text us</a>
 <script>
   function toggleMenu() {
     document.getElementById("nav-links").classList.toggle("open");
