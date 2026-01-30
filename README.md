@@ -17,6 +17,13 @@
     color: #222;
     overflow-x: hidden;
   }
+   .wallpaper {
+      height: 370vh;
+      background-image: url("https://hips.hearstapps.com/hmg-prod/images/future-cars-2-6939c3d6c9abe.jpg?crop=0.6989379084967321xw:1xh;center,top&resize=1200:*");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   header {
     width: 100%;
     position: fixed;
