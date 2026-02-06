@@ -340,7 +340,11 @@
       <h3>2022 DONG FENG</h3>
       <p>40,000,000 RWF</p>
     </div>
-
+<div class="car-card">
+      <img src="https://api-core.multimotors.by/storage/media/2025/03/05/d171b3e3ce632f6365f7122728f9a53bb2b48468.png">
+      <h3>BYD YUAN PLUS 2025</h3>
+      <p>35,000,000 RWF</p>
+    </div>
   </div>
 </section>
 <section class="about" id="about">
