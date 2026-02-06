@@ -346,7 +346,7 @@
       <p>36,000,000 RWF</p>
     </div>
      <div class="car-card">
-      <img src="[https://api-core.multimotors.by/storage/media/2025/03/05/d171b3e3ce632f6365f7122728f9a53bb2b48468.png](https://ecofactortech.com/wp-content/uploads/2023/09/3.jpg)">
+      <img src="https://dolubatarya.com/uploads/2023/01/byd-yangwang-u8-performance.jpg">
       <h3>2024 BYD Yang Wang U8</h3>
       <p>70,000,000 RWF</p>
     </div>
