@@ -371,7 +371,8 @@
   <h2>About LIZHENG Automobile Ltd</h2>
   <p>
     We pride ourselves on delivering high-quality electric vehicles with exceptional customer service.
-    <br><br><strong>Location:</strong> Kigali - Kicukiro, KK 506 Street <br> or find us on google Maps LIZHENG AUTOMOBILE LTD 
+    <br><br><strong>Location:</strong> Kigali - Kicukiro, KK 506 Street <br> or find us on google Maps LIZHENG AUTOMOBILE LTD <br>
+      <u><link href="https://share.google/LHZR3R3Km9kEx9ax0 &display=swap" rel="stylesheet"></u>
 
   </p>
 </section>
@@ -379,11 +380,7 @@
   <h2>Contact Us</h2>
   <p>
     Phone: +250 781 845 376<br>
-    Phone: +250 783 086 346<br>
-    Phone: +250 793 368 695<br>
-    Phone: +250 796 892 093<br>
-    Email: pacifiquentwari195@gmail.com<br>
-    Email: karengerafidele9@gmail.com
+    Email: Lizhengautomobilejingli@gmail.com
   </p>
 
   <h2 style="margin-top:2rem;">Send us a message</h2>
