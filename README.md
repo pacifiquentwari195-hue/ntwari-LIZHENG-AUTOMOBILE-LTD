@@ -355,6 +355,16 @@
       <h3>2025 BYD SEALION 8 Plug-in Hybrid</h3>
       <p>58,000,000 RWF</p>
     </div>
+     <div class="car-card">
+      <img src="https://carnewschina.com/wp-content/uploads/2025/01/1-26.jpg">
+      <h3>2025 BYD Tang L</h3>
+      <p>54,000,000 RWF</p>
+    </div>
+      <div class="car-card">
+      <img src="https://gurudoscarros.com.br/wp-content/uploads/2024/06/tank300_foto2.jpg">
+      <h3>2025 BYD Tank 300</h3>
+      <p>65,000,000 RWF</p>
+    </div>
   </div>
 </section>
 <section class="about" id="about">
