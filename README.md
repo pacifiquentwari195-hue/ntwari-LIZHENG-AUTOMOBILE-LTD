@@ -340,8 +340,21 @@
       <h3>2022 DONG FENG</h3>
       <p>40,000,000 RWF</p>
     </div>
-
-    
+ <div class="car-card">
+      <img src="https://api-core.multimotors.by/storage/media/2025/03/05/d171b3e3ce632f6365f7122728f9a53bb2b48468.png">
+      <h3>2025 BYD YUAN PLUS</h3>
+      <p>36,000,000 RWF</p>
+    </div>
+     <div class="car-card">
+      <img src="[https://api-core.multimotors.by/storage/media/2025/03/05/d171b3e3ce632f6365f7122728f9a53bb2b48468.png](https://ecofactortech.com/wp-content/uploads/2023/09/3.jpg)">
+      <h3>2024 BYD Yang Wang U8</h3>
+      <p>70,000,000 RWF</p>
+    </div>
+     <div class="car-card">
+      <img src="https://carsguide-res.cloudinary.com/image/upload/c_fit,h_810,w_1215,f_auto,t_cg_base/v1/editorial/inline-images/2026-BYD-Sealion-8-SUV-silver-1470x790p-1.jpg">
+      <h3>2025 BYD SEALION 8 Plug-in Hybrid</h3>
+      <p>58,000,000 RWF</p>
+    </div>
   </div>
 </section>
 <section class="about" id="about">
