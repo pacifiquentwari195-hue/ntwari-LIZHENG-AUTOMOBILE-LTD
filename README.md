@@ -365,6 +365,11 @@
       <h3>2025 BYD Tank 300</h3>
       <p>65,000,000 RWF</p>
     </div>
+      <div class="car-card">
+      <img src="https://i.ytimg.com/vi/Q0zGSYaCx5I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCC6EB5NrpK_TeQ4rPU_wU9dSbqYQ">
+      <h3>2025 iCar 03T</h3>
+      <p>38,000,000 RWF</p>
+    </div>
   </div>
 </section>
 <section class="about" id="about">
