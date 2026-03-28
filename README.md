@@ -401,7 +401,7 @@
 <footer>
   © 2025 LIZHENG Automobile Ltd. All Rights Reserved.
 </footer>
-<a href="https://wa.me/250796892093" target="_blank" class="whatsapp">💬 Text us</a>
+<a href="https://wa.me/250781845376" target="_blank" class="whatsapp">💬 Text us</a>
 <script>
   function toggleMenu() {
     document.getElementById("nav-links").classList.toggle("open");
