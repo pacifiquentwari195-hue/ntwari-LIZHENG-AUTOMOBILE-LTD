@@ -279,7 +279,7 @@
   <div class="car-grid">
     <div class="car-card">
       <img src="https://image.made-in-china.com/2f0j00CVvqkazBljoy/2023-Auto-GAC-Aion-V-Plus-2022-Evolution-Edition-New-Energy-Vehicle-High-Speed-185km-H-EV-Electric-Car-Long-Distance-500km.webp">
-      <h3>AION V PLUS</h3>
+      <h3>2023 AION V PLUS</h3>
       <p>30,000,000 RWF</p>
     </div>
     <div class="car-card">
@@ -368,6 +368,11 @@
       <div class="car-card">
       <img src="https://i.ytimg.com/vi/Q0zGSYaCx5I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCC6EB5NrpK_TeQ4rPU_wU9dSbqYQ">
       <h3>2025 iCar 03T</h3>
+      <p>38,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://obaidicarsjo.com/wp-content/uploads/2024/05/DSC08888-1-scaled.jpg">
+      <h3>BYD SONG L</h3>
       <p>38,000,000 RWF</p>
     </div>
   </div>
