@@ -373,7 +373,7 @@
     <div class="car-card">
       <img src="https://obaidicarsjo.com/wp-content/uploads/2024/05/DSC08888-1-scaled.jpg">
       <h3>BYD SONG L</h3>
-      <p>38,000,000 RWF</p>
+      <p>35,000,000 RWF</p>
     </div>
   </div>
 </section>
