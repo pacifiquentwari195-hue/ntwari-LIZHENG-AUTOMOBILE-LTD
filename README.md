@@ -351,7 +351,7 @@
       <p>70,000,000 RWF</p>
     </div>
      <div class="car-card">
-      <img src="https://carsguide-res.cloudinary.com/image/upload/c_fit,h_810,w_1215,f_auto,t_cg_base/v1/editorial/inline-images/2026-BYD-Sealion-8-SUV-silver-1470x790p-1.jpg">
+      <img src="https://editorial.pxcrush.net/carsales/general/editorial/byd-sealion-8-2025-review-14.jpg?width=1024&height=682">
       <h3>2025 BYD SEALION 8 Plug-in Hybrid</h3>
       <p>58,000,000 RWF</p>
     </div>
