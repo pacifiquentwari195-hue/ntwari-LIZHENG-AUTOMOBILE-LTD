@@ -353,17 +353,17 @@
      <div class="car-card">
       <img src="https://editorial.pxcrush.net/carsales/general/editorial/byd-sealion-8-2025-review-14.jpg?width=1024&height=682">
       <h3>2025 BYD SEALION 8 Plug-in Hybrid</h3>
-      <p>58,000,000 RWF</p>
+      <p>61,000,000 RWF</p>
     </div>
      <div class="car-card">
       <img src="https://carnewschina.com/wp-content/uploads/2025/01/1-26.jpg">
       <h3>2025 BYD Tang L</h3>
-      <p>54,000,000 RWF</p>
+      <p>60,000,000 RWF</p>
     </div>
       <div class="car-card">
       <img src="https://gurudoscarros.com.br/wp-content/uploads/2024/06/tank300_foto2.jpg">
       <h3>2025 BYD Tank 300</h3>
-      <p>65,000,000 RWF</p>
+      <p>70,000,000 RWF</p>
     </div>
       <div class="car-card">
       <img src="https://i.ytimg.com/vi/Q0zGSYaCx5I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCC6EB5NrpK_TeQ4rPU_wU9dSbqYQ">
@@ -373,7 +373,7 @@
     <div class="car-card">
       <img src="https://obaidicarsjo.com/wp-content/uploads/2024/05/DSC08888-1-scaled.jpg">
       <h3>BYD SONG L</h3>
-      <p>35,000,000 RWF</p>
+      <p>44,000,000 RWF</p>
     </div>
   </div>
 </section>
