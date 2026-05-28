@@ -362,7 +362,7 @@
     </div>
       <div class="car-card">
       <img src="https://gurudoscarros.com.br/wp-content/uploads/2024/06/tank300_foto2.jpg">
-      <h3>2025 BYD Tank 300</h3>
+      <h3>2025 Tank 300</h3>
       <p>70,000,000 RWF</p>
     </div>
       <div class="car-card">
@@ -374,6 +374,11 @@
       <img src="https://obaidicarsjo.com/wp-content/uploads/2024/05/DSC08888-1-scaled.jpg">
       <h3>BYD SONG L</h3>
       <p>44,000,000 RWF</p>
+    </div>
+    <div class="car-card">
+      <img src="https://media.drive.com.au/obj/tx_g:sm,q:70,rs:auto:1440:1080:1/driveau/upload/cms/uploads/4cce900d-e7a2-5fd2-a10a-588031d50000">
+      <h3>BYD SHARK 6</h3>
+      <p>89,000,000 RWF</p>
     </div>
   </div>
 </section>
