@@ -330,7 +330,7 @@
     </div>
 
     <div class="car-card">
-      <img src="https://www.gacmotor.mx/static/agency-go-virtual/Gac/Emkoo/2024/emkoo-2.jpg">
+      <img src="https://i1.autocango.com/spec/628a6c98942c3f53759a012dc974fcaee15b837c5ff451e2b7dfcf0cf6d6bdf9.webp?x-image-process=image/resize,h_900/quality,q_80/format,webp">
       <h3>GAC Emkoo Hybrid</h3>
       <p>39,000,000 RWF</p>
     </div>
